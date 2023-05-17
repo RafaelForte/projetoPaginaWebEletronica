@@ -95,6 +95,12 @@ main,
     background-position: 96%;
     border: 1px solid black;
 }
+.slider-principal {
+    height: 450px;
+    align-self: center;
+  }
+  
+  
 
 .col-100 {
     width: 100%;
@@ -279,32 +285,29 @@ h3 {
 
 }
 
-.footer h3 {
+
+.footer h3,
+.footer p,
+.footer-2 p {
     text-align: left;
+    width: 90%;
 }
 
-.footer {
+.footer, .footer-2 {
     background-color:black;
 }
-
-.footer-2 {
-    background-color: black;
-    
+.footer-2 P {
+    padding: 0;
 }
-
-.footer p {
-    width: 90%;
-    text-align: left;
-}
-
 .footer-2 p {
     padding: 1px;
 }
 
-
-
-
-
+/*
+.meu-botao {
+    font-family: "Times New Roman", Times, serif;
+    /* outros estilos 
+  }  */
 
 
 
